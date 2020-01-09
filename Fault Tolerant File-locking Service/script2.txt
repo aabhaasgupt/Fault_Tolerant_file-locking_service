@@ -1,0 +1,5 @@
+open f1.txt readwrite
+read f1.txt 1
+read f1.txt 2
+read f1.txt 3
+close f1.txt

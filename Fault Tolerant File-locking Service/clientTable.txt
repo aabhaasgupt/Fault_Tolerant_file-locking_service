@@ -1,0 +1,4 @@
+machine3 1 0 3 write-f1.txt-"01234":<LOCKED>;
+machine2 1 0 5 close-f1.txt:<CLOSE-DONE>;
+machine1 2 0 5 close-f1.txt:<ALREADY-CLOSED>;
+machine1 1 0 5 close-f1.txt:<CLOSE-DONE>;

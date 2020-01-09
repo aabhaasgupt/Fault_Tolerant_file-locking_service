@@ -1,0 +1,5 @@
+open f1.txt read
+read f1.txt 5
+write f1.txt "01234"
+read f1.txt 5
+close f1.txt
